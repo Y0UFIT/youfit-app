@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                       AppToolBar                       -->
+    <style name="AppToolBar" parent="Widget.Material3.Toolbar">
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:titleTextStyle">@style/AppTextTitle.$40</item>
+    </style>
+
+    <!--                       Navigation                       -->
+    <style name="AppToolBar.Navigation">
+        <item name="navigationIcon">@drawable/ic_arrow_back</item>
+    </style>
+
+    <!--                       AppTextTitle                       -->
+    <style name="AppTextTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pink</item>
+    </style>
+
+    <style name="AppTextTitle.$40">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <!--                       ProfileRoundedImage                       -->
+    <style name="ProfileRoundedImage" >
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!--                       FloatingActionButton                       -->
+    <style name="FloatingActionCircleButton" >
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>
